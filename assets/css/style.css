@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #262626;
+    background-color: #edeae5;
+}
+
+/* About Me Styling */
+
+#about {
+    padding: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 65%;
+}  
+
+#name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    line-height: 100%;
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #026670;
+}
+
+#descrip {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 35px;
+    line-height: 2;
+}
+
+#texas {
+    height: 35px;
+    width: 35px;
+}
+
+/* Contact Styling */
+
+#initials {
+    display: none;
+    
+}
+
+#initials-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.sticky {
+    background-color: #edeae5;
+    position: fixed;
+    top: 0;
+    right: 10%;
+    left: 10%;
+    padding: 10px 0 5px 0;
+    z-index: 999;
+  }
+  
+.contact-icons,
+i {
+    font-size: 32px;
+    color: #026670;
+}
+
+.far:hover,
+.fab:hover,
+.fas:hover {
+    color: #00a0ae;
+}
+
+/* PortfolioS tyling */
+
+.portfolio {
+    padding: 45px 0;
+    margin-left: 30%;
+}
+
+.header-text,
+.header-skills {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+}
+
+.header-text {
+    margin-bottom: 15px;
+}
+.header-skills {
+    margin-bottom: 25px;
+}
+
+.port-item {
+    margin-bottom: 35px;
+    max-width: 65%;
+}
+
+.port-overlay {
+    width: 100%;
+    display: none;
+    padding: 20px 110px;
+}
+
+.proj-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+}
+
+.proj-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.proj-tech {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+#tech-span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #026670;
+}
+
+.overlay-button {
+    background: none;
+    border: 2px solid #026670;
+    border-radius: 25px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.overlay-button:hover {
+    background: #026670;
+    color: #edeae5;
+    transition: .3s;
+}
+
+#up-arrow-drinkr,
+#up-arrow-tp,
+#up-arrow-nick,
+#up-arrow-marvel {
+    display: none;
+}
+
+.port-img {
+    width: 60%;
+    height: 60%;
+}
+
+/* Skills Styling */
+
+.skills-row {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    width: 60%;
+    padding: 0 60px;
+}
+
+.skills-row > div {
+    margin-bottom: 10px;
+}
+
+table {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    width: 60%;
+    margin-left: 155px;
+}
+
+td {
+    width: 10%;
+    padding-bottom: 10px;
+}
+
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    padding: 45px 0;
+    margin-left: 30%;
+}
+
+/* -------------- MEDIA QUERIES -------------- */
+
+@media only screen and (max-width: 1200px){
+    #about {
+        position: relative;
+        padding: 40px 60px;
+    }
+
+    .port-item {
+        max-width: 100%;
+    }
+
+    .port-overlay {
+        padding: 20px 40px;
+    }
+
+    .portfolio,
+    footer {
+        padding: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    table {
+    font-size: 16px;
+    width: 80%;
+    margin-left: 10%;
+    }
+
+    td {
+        padding-bottom: 25px;
+    }
+}

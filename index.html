@@ -1,14 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>This is my Website</title>
-</head>
-<body>
-    <h1>This is the heading of my website</h1>
+    <title>Shawn Holcomb | Web Designer</title>
 
-    <p>This is not much to look at.  It needs some CSS in it's life.</p>
+    <meta name="theme-color" content="#026670">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Montserrat:500" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.css">
+
+
+</head>
+
+<body>
+
+    <div id="about">
+        <p id="name">shawn holcomb</p>
+        <p id="title">FRONT-END WEB DEVELOPER</p>
+        <p id="descrip">I’m a Dallas <img src="assets/images/texas.png" id="texas"> based web developer with a passion for design. Most days I can be found entrenched
+            in front-end
+            programming with a focus on clean, responsive UI but I am currently expanding my
+            knowledge of back-end engineering.</p>
+
+        <div class="row d-flex justify-content-between mx-0" id="iconHeader">
+            <div class="col-4 align-items-center px-0" id="initials">
+                <p class="mb-0" id="initials-text">shawn holcomb</p>
+            </div>
+            <div class="col-3 d-flex justify-content-left align-items-center px-0" id="mail-toggle">
+                <a href="mailto:sholcmb@gmail.com">
+                    <p class="mb-0"><i class="far fa-envelope contact-icons"></i></p>
+                </a>
+            </div>
+            <div class="col-3 d-flex justify-content-left align-items-center px-0" id="resume-toggle">
+                <a href="https://drive.google.com/file/d/1F5e-BTamByUKycLwE964nY8fXeEnOmcq/view?usp=sharing"
+                    target="_blank">
+                    <p class="mb-0"><i class="far fa-file contact-icons"></i></p>
+                </a>
+            </div>
+            <div class="col-3 d-flex justify-content-left align-items-center px-0" id="link-toggle">
+                <a href="https://www.linkedin.com/in/shawnholcomb/" target="_blank">
+                    <p class="mb-0"><i class="fab fa-linkedin-in contact-icons"></i></p>
+                </a>
+            </div>
+            <div class="col-3 d-flex justify-content-left align-items-center px-0" id="git-toggle">
+                <a href="https://github.com/shawnholcomb" target="_blank">
+                    <p class="mb-0"><i class="fab fa-github contact-icons"></i></p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio d-flex flex-column align-items-center">
+        <div class="row">
+            <p class="header-text">Projects</p>
+        </div>
+
+        <div class="port-item">
+            <div class="row d-flex justify-content-center">
+                <img class="port-img" src="assets/images/drinkrdemo.png">
+            </div>
+
+
+
+            <div class="port-overlay d-flex-col justify-content-center" id="port-drinkr">
+                <p class="proj-name text-center">drinkr</p>
+                <p class="proj-description">drinkr is a web app that helps users discover new craft beers and identify
+                    styles that they might enjoy based on their answers to a questionnaire.</p>
+                <p class="proj-tech">Technologies Used: <span id="tech-span">HTML, CSS, Bootstrap, JavaScript, jQuery,
+                        Google Maps API,
+                        Untappd API, Photoshop</span></p>
+                <div class="row d-flex justify-content-around">
+                    <a href="https://github.com/shawnholcomb/drinkr" alt="drinkr Github Repository"
+                        target="_blank"><button class="overlay-button">Github</button></a>
+                    <a href="https://shawnholcomb.github.io/drinkr/" alt="drinkr website" target="_blank"><button
+                            class="overlay-button">Website</button></a>
+                </div>
+            </div>
+            <div id="down-arrow-drinkr">
+                <div class="row d-flex justify-content-center drinkr-arrow">
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+
+            <div id="up-arrow-drinkr">
+                <div class="row d-flex justify-content-center drinkr-arrow">
+                    <i class="fas fa-angle-up"></i>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="port-item">
+            <div class="row d-flex justify-content-center">
+                <img class="port-img" src="assets/images/tipsypigdemo.png">
+            </div>
+            <div class="port-overlay d-flex-col justify-content-center" id="port-tp">
+                <p class="proj-name text-center">Tipsy Pig BBQ & Provisions</p>
+                <p class="proj-description">This website is for a local catering business. Wireframing
+                    was done in Photoshop, Bootstrap provides responsiveness. Mobile layout utilizes
+                    Javascript toggle for a clean, impactful design.</p>
+                <p class="proj-tech">Technologies Used: <span id="tech-span">HTML, CSS, Bootstrap, JavaScript,
+                        jQuery,
+                        Photoshop</span></p>
+                <div class="row d-flex justify-content-around">
+                    <a href="https://github.com/shawnholcomb/TipsyPig" alt="Tipsy Pig Github Repository"
+                        target="_blank"><button class="overlay-button">Github</button></a>
+                    <a href="http://www.tipsypig.dx.am/" alt="Tipsy Pig website" target="_blank"><button
+                            class="overlay-button">Website</button></a>
+                </div>
+            </div>
+            <div id="down-arrow-tp">
+                <div class="row d-flex justify-content-center tp-arrow">
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+            <div id="up-arrow-tp">
+                <div class="row d-flex justify-content-center tp-arrow">
+                    <i class="fas fa-angle-up"></i>
+                </div>
+            </div>
+        </div>
+        <div class="port-item">
+            <div class="row d-flex justify-content-center">
+                <img class="port-img" src="assets/images/nickdemo.png">
+            </div>
+            <div class="port-overlay d-flex-col justify-content-center" id="port-nick">
+                <p class="proj-name text-center">Nickelodeon GIF Generator</p>
+                <p class="proj-description">This website was created as a project to leverage the Giphy API to generate
+                    gifs. The theme was built around Nickelodeon shows from the 90's and 00's.</p>
+                <p class="proj-tech">Technologies Used: <span id="tech-span">HTML, CSS, Bootstrap, JavaScript, jQuery,
+                        Giphy API, Photoshop</span></p>
+                <div class="row d-flex justify-content-around">
+                    <a href="https://github.com/shawnholcomb/GifTastic"
+                        alt="Nickelodeon Gif Generator Github Repository" target="_blank"><button
+                            class="overlay-button">Github</button></a>
+                    <a href="https://shawnholcomb.github.io/GifTastic/" alt="Nickelodeon Gif Generator website"
+                        target="_blank"><button class="overlay-button">Website</button></a>
+                </div>
+            </div>
+            <div id="down-arrow-nick">
+                <div class="row d-flex justify-content-center nick-arrow">
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+            <div id="up-arrow-nick">
+                <div class="row d-flex justify-content-center nick-arrow">
+                    <i class="fas fa-angle-up"></i>
+                </div>
+            </div>
+        </div>
+        <div class="port-item">
+            <div class="row d-flex justify-content-center">
+                <img class="port-img" src="assets/images/marveldemo.png">
+            </div>
+            <div class="port-overlay d-flex-col justify-content-center" id="port-marvel">
+                <p class="proj-name text-center">Marvel Movie Trivia</p>
+                <p class="proj-description">This trivia game was created utilizing Javascript intervals and JQuery DOM
+                    manipulation. The questions are based on Marvel Studio's movies.</p>
+                <p class="proj-tech">Technologies Used: <span id="tech-span">HTML, CSS, Bootstrap, JavaScript, jQuery,
+                        Photoshop</span></p>
+                <div class="row d-flex justify-content-around">
+                    <a href="https://github.com/shawnholcomb/TriviaGame" alt="Marvel Movie Trivia Github Repository"
+                        target="_blank"><button class="overlay-button">Github</button></a>
+                    <a href="https://shawnholcomb.github.io/TriviaGame/" alt="Marvel Movie Trivia website"
+                        target="_blank"><button class="overlay-button">Website</button></a>
+                </div>
+            </div>
+            <div id="down-arrow-marvel">
+                <div class="row d-flex justify-content-center marvel-arrow">
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+            <div id="up-arrow-marvel">
+                <div class="row d-flex justify-content-center marvel-arrow">
+                    <i class="fas fa-angle-up"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <p class="header-skills">Skills</p>
+        </div>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td><i class="devicon-html5-plain"></i></td>
+                    <td>MongoDB</td>
+                    <td><i class="devicon-mongodb-plain"></i></td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td><i class="devicon-css3-plain"></i></td>
+                    <td>Express.js</td>
+                    <td><i class="devicon-express-original"></i></td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td><i class="devicon-javascript-plain"></i></td>
+                    <td>React.js</td>
+                    <td><i class="devicon-react-plain"></i></td>
+                </tr>
+                <tr>
+                    <td>JQuery</td>
+                    <td><i class="devicon-jquery-plain"></i></td>
+                    <td>Node.js</td>
+                    <td><i class="devicon-nodejs-plain"></i></td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td><i class="devicon-bootstrap-plain"></i></td>
+                    <td>MySQL</td>
+                    <td><i class="devicon-mysql-plain"></i></td>
+                </tr>
+                <tr>
+                    <td>Photoshop</td>
+                    <td><i class="devicon-photoshop-plain"></i></td>
+                    <td>Git</td>
+                    <td><i class="devicon-git-plain"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="text-center mt-2">
+        <p id="copyright">&copy;2019 Shawn Holcomb</p>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
 </body>
+
 </html>
