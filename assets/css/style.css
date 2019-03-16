@@ -13,8 +13,8 @@ body {
     padding: 70px;
     position: fixed;
     bottom: 0;
-    left: 0;
-    right: 65%;
+    left: 5%;
+    right: 60%;
 }  
 
 #name {
