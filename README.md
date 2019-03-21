@@ -8,4 +8,4 @@ Personal portfolio website.  This website was built using HTML5, CSS3 and Bootst
 
 # Deployed Site
 
-https://shawnholcomb.github.io/
+http://www.shawnholcomb.com
