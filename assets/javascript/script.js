@@ -1,50 +1,50 @@
-$('.drinkr-arrow').on('click', function () {
-    $('#port-drinkr').slideToggle('slow');
+$('.one-arrow').on('click', function () {
+    $('#port-one').slideToggle('slow');
 });
 
-$('.tp-arrow').on('click', function () {
-    $('#port-tp').slideToggle('slow');
+$('.two-arrow').on('click', function () {
+    $('#port-two').slideToggle('slow');
 });
 
-$('.nick-arrow').on('click', function () {
-    $('#port-nick').slideToggle('slow');
+$('.three-arrow').on('click', function () {
+    $('#port-three').slideToggle('slow');
 });
 
-$('.marvel-arrow').on('click', function () {
-    $('#port-marvel').slideToggle('slow');
+$('.four-arrow').on('click', function () {
+    $('#port-four').slideToggle('slow');
 });
 
-$('#down-arrow-drinkr').on("click", function () {
-    $('#down-arrow-drinkr').hide();
-    $('#up-arrow-drinkr').show();
+$('#down-arrow-one').on("click", function () {
+    $('#down-arrow-one').hide();
+    $('#up-arrow-one').show();
 });
-$('#up-arrow-drinkr').on("click", function () {
-    $('#up-arrow-drinkr').hide();
-    $('#down-arrow-drinkr').show();
+$('#up-arrow-one').on("click", function () {
+    $('#up-arrow-one').hide();
+    $('#down-arrow-one').show();
 })
-$('#down-arrow-tp').on("click", function () {
-    $('#down-arrow-tp').hide();
-    $('#up-arrow-tp').show();
+$('#down-arrow-two').on("click", function () {
+    $('#down-arrow-two').hide();
+    $('#up-arrow-two').show();
 });
-$('#up-arrow-tp').on("click", function () {
-    $('#up-arrow-tp').hide();
-    $('#down-arrow-tp').show();
+$('#up-arrow-two').on("click", function () {
+    $('#up-arrow-two').hide();
+    $('#down-arrow-two').show();
 })
-$('#down-arrow-nick').on("click", function () {
-    $('#down-arrow-nick').hide();
-    $('#up-arrow-nick').show();
+$('#down-arrow-three').on("click", function () {
+    $('#down-arrow-three').hide();
+    $('#up-arrow-three').show();
 });
-$('#up-arrow-nick').on("click", function () {
-    $('#up-arrow-nick').hide();
-    $('#down-arrow-nick').show();
+$('#up-arrow-three').on("click", function () {
+    $('#up-arrow-three').hide();
+    $('#down-arrow-three').show();
 })
-$('#down-arrow-marvel').on("click", function () {
-    $('#down-arrow-marvel').hide();
-    $('#up-arrow-marvel').show();
+$('#down-arrow-four').on("click", function () {
+    $('#down-arrow-four').hide();
+    $('#up-arrow-four').show();
 });
-$('#up-arrow-marvel').on("click", function () {
-    $('#up-arrow-marvel').hide();
-    $('#down-arrow-marvel').show();
+$('#up-arrow-four').on("click", function () {
+    $('#up-arrow-four').hide();
+    $('#down-arrow-four').show();
 })
 
 if ($(window).width() <= 1200) {

@@ -145,10 +145,10 @@ i {
     transition: .3s;
 }
 
-#up-arrow-drinkr,
-#up-arrow-tp,
-#up-arrow-nick,
-#up-arrow-marvel {
+#up-arrow-one,
+#up-arrow-two,
+#up-arrow-three,
+#up-arrow-four {
     display: none;
 }
 
