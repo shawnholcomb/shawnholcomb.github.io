@@ -59,31 +59,29 @@ if ($(window).width() <= 1200) {
     var git = document.getElementById('git-toggle');
 
 
-    function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add('sticky');
-            nameHeader.style.display = 'flex';
-            mail.classList.add('col-2');
-            mail.classList.remove('col-3');
-            resume.classList.add('col-2');
-            resume.classList.remove('col-3');
-            link.classList.add('col-2');
-            link.classList.remove('col-3');
-            git.classList.add('col-2');
-            git.classList.remove('col-3');
-        } else {
-            header.classList.remove('sticky');
-            nameHeader.style.display = 'none';
-            mail.classList.add('col-3');
-            mail.classList.remove('col-2');
-            resume.classList.add('col-3');
-            resume.classList.remove('col-2');
-            link.classList.add('col-3');
-            link.classList.remove('col-2');
-            git.classList.add('col-3');
-            git.classList.remove('col-2');
-        }
-
-        
-    }
+    // function myFunction() {
+    //     if (window.pageYOffset > sticky) {
+    //         header.classList.add('sticky');
+    //         nameHeader.style.display = 'flex';
+    //         mail.classList.add('col-2');
+    //         mail.classList.remove('col-3');
+    //         resume.classList.add('col-2');
+    //         resume.classList.remove('col-3');
+    //         link.classList.add('col-2');
+    //         link.classList.remove('col-3');
+    //         git.classList.add('col-2');
+    //         git.classList.remove('col-3');
+    //     } else {
+    //         header.classList.remove('sticky');
+    //         nameHeader.style.display = 'none';
+    //         mail.classList.add('col-3');
+    //         mail.classList.remove('col-2');
+    //         resume.classList.add('col-3');
+    //         resume.classList.remove('col-2');
+    //         link.classList.add('col-3');
+    //         link.classList.remove('col-2');
+    //         git.classList.add('col-3');
+    //         git.classList.remove('col-2');
+    //     }
+    // }
 }

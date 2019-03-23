@@ -57,7 +57,7 @@ body {
 .sticky {
     background-color: #edeae5;
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 10%;
     left: 10%;
     padding: 10px 0 5px 0;
