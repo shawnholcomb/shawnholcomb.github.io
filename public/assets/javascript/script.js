@@ -1,17 +1,17 @@
 $('.one-arrow').on('click', function () {
     $('#port-one').slideToggle('slow');
 });
-
 $('.two-arrow').on('click', function () {
     $('#port-two').slideToggle('slow');
 });
-
 $('.three-arrow').on('click', function () {
     $('#port-three').slideToggle('slow');
 });
-
 $('.four-arrow').on('click', function () {
     $('#port-four').slideToggle('slow');
+});
+$('.five-arrow').on('click', function () {
+    $('#port-five').slideToggle('slow');
 });
 
 $('#down-arrow-one').on("click", function () {
@@ -47,41 +47,51 @@ $('#up-arrow-four').on("click", function () {
     $('#down-arrow-four').show();
 })
 
-if ($(window).width() <= 1200) {
-    window.onscroll = function () { myFunction() };
+$('#down-arrow-five').on("click", function () {
+    $('#down-arrow-five').hide();
+    $('#up-arrow-five').show();
+});
+$('#up-arrow-five').on("click", function () {
+    $('#up-arrow-five').hide();
+    $('#down-arrow-five').show();
+})
 
-    var header = document.getElementById('iconHeader');
-    var sticky = header.offsetTop;
-    var nameHeader = document.getElementById('initials');
-    var mail = document.getElementById('mail-toggle');
-    var resume = document.getElementById('resume-toggle');
-    var link = document.getElementById('link-toggle');
-    var git = document.getElementById('git-toggle');
+// Sticky header functionality - currently turned off
 
+// if ($(window).width() <= 1200) {
+//     window.onscroll = function () { myFunction() };
 
-    // function myFunction() {
-    //     if (window.pageYOffset > sticky) {
-    //         header.classList.add('sticky');
-    //         nameHeader.style.display = 'flex';
-    //         mail.classList.add('col-2');
-    //         mail.classList.remove('col-3');
-    //         resume.classList.add('col-2');
-    //         resume.classList.remove('col-3');
-    //         link.classList.add('col-2');
-    //         link.classList.remove('col-3');
-    //         git.classList.add('col-2');
-    //         git.classList.remove('col-3');
-    //     } else {
-    //         header.classList.remove('sticky');
-    //         nameHeader.style.display = 'none';
-    //         mail.classList.add('col-3');
-    //         mail.classList.remove('col-2');
-    //         resume.classList.add('col-3');
-    //         resume.classList.remove('col-2');
-    //         link.classList.add('col-3');
-    //         link.classList.remove('col-2');
-    //         git.classList.add('col-3');
-    //         git.classList.remove('col-2');
-    //     }
-    // }
-}
+//     var header = document.getElementById('iconHeader');
+//     var sticky = header.offsetTop;
+//     var nameHeader = document.getElementById('initials');
+//     var mail = document.getElementById('mail-toggle');
+//     var resume = document.getElementById('resume-toggle');
+//     var link = document.getElementById('link-toggle');
+//     var git = document.getElementById('git-toggle');
+
+//     function myFunction() {
+//         if (window.pageYOffset > sticky) {
+//             header.classList.add('sticky');
+//             nameHeader.style.display = 'flex';
+//             mail.classList.add('col-2');
+//             mail.classList.remove('col-3');
+//             resume.classList.add('col-2');
+//             resume.classList.remove('col-3');
+//             link.classList.add('col-2');
+//             link.classList.remove('col-3');
+//             git.classList.add('col-2');
+//             git.classList.remove('col-3');
+//         } else {
+//             header.classList.remove('sticky');
+//             nameHeader.style.display = 'none';
+//             mail.classList.add('col-3');
+//             mail.classList.remove('col-2');
+//             resume.classList.add('col-3');
+//             resume.classList.remove('col-2');
+//             link.classList.add('col-3');
+//             link.classList.remove('col-2');
+//             git.classList.add('col-3');
+//             git.classList.remove('col-2');
+//         }
+//     }
+// }
